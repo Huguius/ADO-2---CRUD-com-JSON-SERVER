@@ -1,0 +1,60 @@
+<div class="content-container">
+    <h1>{{ titulo }}</h1>
+  
+    <form action="">
+  
+      <label for="input-id">ID</label><br />
+      <input
+        class="input-id"
+        id="input-id"
+        name="input-id"
+        placeholder="Digite o id"
+        type="text"
+        [(ngModel)]="produto.id"
+      />
+      <label for="input-nome">Produto</label><br />
+      <input
+        class="input-simples"
+        id="input-nome"
+        name="input-nome"
+        placeholder="Digite o nome do produto"
+        type="text"
+        [(ngModel)]="produto.nome"
+      />
+      <label for="input-tipo">Tipo</label><br />
+      <input
+        class="input-simples"
+        id="input-tipo"
+        name="input-tipo"
+        placeholder="Digite o tipo do produto"
+        type="text"
+        [(ngModel)]="produto.tipo"
+      />
+      <label for="input-quantidade">Quantidade</label><br />
+      <input
+        class="input-simples"
+        id="input-quantidade"
+        name="input-quantidade"
+        placeholder="Digite a quantidade"
+        type="text"
+        [(ngModel)]="produto.quantidade"
+      />
+      <label for="input-preco-unit">Preço Unitário</label><br />
+      <input
+        class="input-simples"
+        id="input-preco-unit"
+        name="input-preco-unit"
+        placeholder="Digite o preço unitário do produto"
+        type="text"
+        [(ngModel)]="produto.precounit"
+      />
+  
+      <button class="input-submeter"(click)="submeter()">
+        Cadastrar
+      </button>
+      
+  
+    </form>
+  
+  </div>
+  

@@ -1,0 +1,18 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Rosa",
+      "tipo": "Rosas",
+      "quantidade": 30,
+      "precounit": "15"
+    },
+    {
+      "id": "2",
+      "nome": "Tulipa Amarela",
+      "tipo": "Tulipas",
+      "quantidade": "30",
+      "precounit": "15,22"
+    }
+  ]
+}
